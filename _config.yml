@@ -1,0 +1,14 @@
+title: Pages of the Past
+description: A blog exploring interesting moments in history
+baseurl: ""
+url: ""
+theme: minima
+author:
+  name: Nihal Singh
+
+header_pages:
+  - ancient-rome.md
+  - silk-road.md
+  - world-war-2.md
+  - space-race.md
+  - about.md
