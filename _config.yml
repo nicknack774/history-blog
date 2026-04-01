@@ -1,10 +1,9 @@
 title: Pages of the Past
 description: A blog exploring interesting moments in history
-baseurl: ""
-url: ""
+baseurl: "/history-blog"
+url: "https://nicknack774.github.io"
 theme: minima
-author:
-  name: Nihal Singh
+author: Nihal Singh
 
 header_pages:
   - ancient-rome.md
