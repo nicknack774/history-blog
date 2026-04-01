@@ -1,13 +1,18 @@
-title: Pages of the Past
-description: A blog exploring interesting moments in history
-baseurl: "/history-blog"
-url: "https://nicknack774.github.io"
-theme: minima
-author: Nihal Singh
+remote_theme: daattali/beautiful-jekyll@6.0.1
 
-header_pages:
-  - ancient-rome.md
-  - silk-road.md
-  - world-war-2.md
-  - space-race.md
-  - about.md
+title: Pages of the Past
+author: Nihal Singh
+description: A blog exploring interesting moments in history
+
+navbar-links:
+  Ancient Rome: "ancient-rome"
+  Silk Road: "silk-road"
+  World War II: "world-war-2"
+  Space Race: "space-race"
+  About: "about"
+
+url: "https://nicknack774.github.io"
+baseurl: "/history-blog"
+
+plugins:
+  - jekyll-remote-theme
