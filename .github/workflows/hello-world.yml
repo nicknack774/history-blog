@@ -1,0 +1,15 @@
+name: GitHub Actions Demo
+
+on: [push]
+
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The job was triggered by a ${{ github.event_name }} event."
+      - run: echo "Running on a ${{ runner.os }} server."
+      - run: echo "Hello, World! This job has finished successfully."
+      - name: Check out repository code
+        uses: actions/checkout@v4
+      - name: List files in the repository
+        run: ls ${{ github.workspace }}
